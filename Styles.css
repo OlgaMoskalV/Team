@@ -1,31 +1,50 @@
 .imgVideo{position: absolute;
-  width: 35%;
-  right: 30%;
-  top: 18%;
+  width: 520px;
+  left: 31,5%;
+  top:-7%;
+  border: 1px solid red;
   }
 .textVideo{position: absolute;
-  right:27%;
-  top:62%;
-  text-align: center;
+  left:31,5%;
+  top:45%;
   color:white;
+  margin: 0px;
+  font-size: 32px;
+  width: 520px;
+  border: 1px solid red;
   }     
 .ButVideo{border: 2px solid #c89d73;
    border-radius: 2px;
    color:#c89d73;
    background-color: rgba(51, 49, 49, 0.171);
-   font-size: 130%;
+   font-size: 20px;
    padding:0.5% 1.5%;
-   margin: 2% 10%;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-} 
+}
+header {border: 1px solid red;
+       overflow: hidden;
+    } 
 .But1Video{position: absolute;
-  top: 110%;
-  left: 27%;
+  top: 93%;
+  left: 36%;
    }   
 .But2Video{position: absolute;
-  top: 110%;
-  right: 27%;
+  top: 93%;
+  left: 55%;
    } 
+.iconButVideo { opacity: 1;
+                 }
 .ButVideo:hover{border: none;
-         transition-duration: 3s;}    
+                transition-duration: 3s;
+                opacity: 1;
+        }
+
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
                  
