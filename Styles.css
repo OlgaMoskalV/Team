@@ -32,19 +32,20 @@ header {border: 1px solid red;
   top: 93%;
   left: 55%;
    } 
-.iconButVideo { opacity: 1;
+.iconButVideo { opacity: 0;
                  }
-.ButVideo:hover{border: none;
-                transition-duration: 3s;
-                opacity: 1;
-        }
-
-
-.video-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
+.ButVideo:hover {border: none;
+                }
+.ButVideo:hover > .bi-geo-alt {border: none;
+                               opacity: 1;
+                              }
+.ButVideo:hover > .bi-chevron-right{border: none;
+                                opacity: 1;
+                                }
+.video-container {display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 100vh;
+                  }
 
                  
