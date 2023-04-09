@@ -1,8 +1,31 @@
-.Article3 {
-  font-size: 17px;
-  font-family: "Verlag A", "Verlag B";
-  padding: 120px 30px 90px;
-}
-.h2Article3 {
-  color: #e0c282;
-}
+.imgVideo{position: absolute;
+  width: 35%;
+  right: 30%;
+  top: 18%;
+  }
+.textVideo{position: absolute;
+  right:27%;
+  top:62%;
+  text-align: center;
+  color:white;
+  }     
+.ButVideo{border: 2px solid #c89d73;
+   border-radius: 2px;
+   color:#c89d73;
+   background-color: rgba(51, 49, 49, 0.171);
+   font-size: 130%;
+   padding:0.5% 1.5%;
+   margin: 2% 10%;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+.But1Video{position: absolute;
+  top: 110%;
+  left: 27%;
+   }   
+.But2Video{position: absolute;
+  top: 110%;
+  right: 27%;
+   } 
+.ButVideo:hover{border: none;
+         transition-duration: 3s;}    
+                 
