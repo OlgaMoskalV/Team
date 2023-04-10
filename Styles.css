@@ -113,7 +113,7 @@
    padding:8px 23px;
    text-align: center;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   transition-duration: 0.8s;}
+   }
 header {border: 1px solid red;
        overflow: hidden;
     } 
@@ -121,14 +121,14 @@ header {border: 1px solid red;
 .iconButVideo { display: none;
               }
 .ButVideo:hover {border: none;
-                 transform: translate(-7%,0%) rotate(0deg);
+                 transform: translate(-2%,0%) rotate(0deg);
                 }
 .ButVideo:hover > .bi-geo-alt {border: none;
                                display: block;
                                float: right;
                                transform: translate(0%,0%) rotate(0deg);
                                }
-.ButVideo:hover > .bi-chevron-right{border: none;
+.ButVideo:hover > .bi-people-fill{border: none;
                                 display: block;
                                 float: right;
                             }
