@@ -9,10 +9,10 @@
 @media only screen and (min-width: 768px) 
 { .divMenu{background-color: rgb(235, 150, 13);
       display: none;}}
-@media only screen and (min-width: 980px) 
+@media only screen and (min-width: 992px) 
 { .divMenu{background-color: rgb(89, 0, 255);
       display: block;}}
-@media only screen and (min-width: 1211px) 
+@media only screen and (min-width: 1200px) 
 { .divMenu{background-color: rgb(0, 255, 64);
      display: block;
     }}
@@ -22,25 +22,65 @@
 
       nav{
         background-color: black;
-        padding: 1.2%;
+       
+      
       
       }
+      .divMenu{margin-left: 23%;
+        padding: 0px ;
+        }
           .styleMenu{
             color: rgb(239, 242, 245);
             text-decoration: none;
-            font-size: 125%;
+            font-size:  18.5px;
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            width: 100%;
-            padding: 1.2%;
-          }  
+            border: 1px solid white;
+            padding: 10px 0px ;
+            margin-right: 33px;
+            margin-left: -13px;
+            float: left;
+          } 
+          .styleMenu1{margin-right: 24px;} 
           .styleMenu:hover{
             color: rgb(169, 164, 164);
           } 
-.Article3 {
-  font-size: 17px;
-  font-family: "Verlag A", "Verlag B";
-  padding: 120px 30px 90px;
+
+.menu > .li1:hover > .sub-menu{display:block;
+  position: absolute;
+  top: 90%;
+  left: 0%;
+  width: 164px;
+  background-color: rgba(0, 0, 0, 0.473);
+  color: rgb(145, 145, 48)
+  }
+.sub-menu   {display:none;
 }
-.h2Article3 {
-  color: #e0c282;
-}
+
+.menu{position: relative;
+  width: 150px;
+  padding: 0% ;
+  top: 0; 
+  left: -1px;
+   margin: -17px 0px 0px  ;
+  border: 1px solid white;}
+.li1 {list-style-type: none;
+  color: rgb(255, 255, 255);
+  padding: 11px 1px 7px 0px;
+  margin-left: -10px;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+.li2 {list-style-type: none;
+  color: rgb(212, 24, 24);
+  text-decoration: none;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 3% 0% 2%;}
+  .amenu2 {text-decoration: none;
+    color: rgb(185, 175, 26);}  
+    .Lang{font-size: 10px;
+      left: 0.1%;
+       top: -17%;
+       margin: 0px ;
+        border: 1px solid red;
+      position: relative;}
