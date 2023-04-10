@@ -1,16 +1,19 @@
 @media only screen and (max-width: 576px) 
 {      body{background-color: rgb(208, 255, 0);}
       .FotoFon{width: 100%;
-              height: 300%;
+              height: 2000px;
               display: block;}
        video{ display: none;}
        .But1Video{position: absolute;
-        top: 90%;
-        left: 36%;
+        top: 93%;
+        left: 38%;
        }     
      .But2Video{position: absolute;
-       top: 100%;
-       left: 36%;} 
+       top: 105%;
+       left: 38%;} 
+       .imgVideo{ width: 100%;}
+       .textVideo{width: 100%;}
+       .video-container{height: 120vh;}
 }
 @media only screen and (min-width: 576px) 
 {      body{background-color: rgb(0, 162, 255);}
@@ -19,10 +22,13 @@
        video{ display: block;}
        .But1Video{position: absolute;
         top: 93%;
-        left: 36%;}   
+        left: 40%;}   
 .But2Video{position: absolute;
-       top: 93%;
-       left: 55%;} 
+       top: 107%;
+       left: 40%;} 
+       .imgVideo{ width: 520px;}
+       .textVideo{width: 520px;}
+       .video-container{height: 120vh;}
 }
 @media only screen and (min-width: 768px) 
 {      body{background-color: rgb(255, 0, 255);}
@@ -31,10 +37,13 @@
        video{ display: block;}
        .But1Video{position: absolute;
         top: 93%;
-        left: 36%;}   
+        left: 44%;}   
 .But2Video{position: absolute;
-       top: 93%;
-       left: 55%;} 
+       top: 107%;
+       left: 44%;} 
+       .imgVideo{ width: 520px;}
+       .textVideo{width: 520px;}
+       .video-container{height: 120vh;}
 }
 @media only screen and (min-width: 992px) 
 {      body{background-color: rgb(89, 0, 255);}
@@ -42,11 +51,14 @@
                 display: none;}
        video{ display: block;}
        .But1Video{position: absolute;
-        top: 93%;
-        left: 36%;}   
+        top: 100%;
+        left: 31.5%;}   
 .But2Video{position: absolute;
-       top: 93%;
-       left: 55%;} 
+       top: 100%;
+       left: 57%;} 
+       .imgVideo{ width: 520px;}
+       .textVideo{width: 520px;}
+       .video-container{height: 120vh;}
 }
 @media only screen and (min-width: 1200px) 
 {       body{background-color: rgb(0, 255, 64);}
@@ -54,11 +66,14 @@
                  display: none;}
         video{ display: block;}
         .But1Video{position: absolute;
-          top: 93%;
+          top: 100%;
           left: 36%;}   
         .But2Video{position: absolute;
-         top: 93%;
+         top: 100%;
          left: 55%;} 
+         .imgVideo{ width: 520px;}
+         .textVideo{width: 520px;}
+         .video-container{height: 120vh;}
 }
 @media only screen and (min-width: 1400px) 
 {        body{background-color: red;}  
@@ -67,15 +82,17 @@
          video{ display: block;}
          .But1Video{position: absolute;
                     top: 93%;
-                    left: 36%;
+                    left: 41%;
            }   
         .But2Video{position: absolute;
                    top: 93%;
-                   left: 55%;} 
+                   left: 53.5%;} 
+      .imgVideo{ width: 520px;}
+      .textVideo{width: 520px;}
+      .video-container{height: 120vh;}
 }
 
 .imgVideo{position: absolute;
-  width: 520px;
   left: 31,5%;
   top:-7%;
   border: 1px solid red;
@@ -86,7 +103,6 @@
   color:white;
   margin: 0px;
   font-size: 32px;
-  width: 520px;
   border: 1px solid red;
   }     
 .ButVideo{border: 2px solid #c89d73;
@@ -94,10 +110,10 @@
    color:#c89d73;
    background-color: rgba(0, 0, 0, 0.466);
    font-size: 20px;
-   padding:1.5% 4.5%;
+   padding:8px 23px;
    text-align: center;
    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   transition-duration: 0.3s;}
+   transition-duration: 0.8s;}
 header {border: 1px solid red;
        overflow: hidden;
     } 
@@ -105,20 +121,20 @@ header {border: 1px solid red;
 .iconButVideo { display: none;
               }
 .ButVideo:hover {border: none;
-                 transform: translate(-8%,0%) rotate(0deg);
+                 transform: translate(-7%,0%) rotate(0deg);
                 }
 .ButVideo:hover > .bi-geo-alt {border: none;
                                display: block;
                                float: right;
+                               transform: translate(0%,0%) rotate(0deg);
                                }
 .ButVideo:hover > .bi-chevron-right{border: none;
                                 display: block;
                                 float: right;
-                                }
+                            }
 .video-container {display: flex;
                   justify-content: center;
                   align-items: center;
-                  height: 100vh;
                   }
 
 
