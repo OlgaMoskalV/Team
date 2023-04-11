@@ -116,6 +116,7 @@
    }
 header {border: 1px solid red;
        overflow: hidden;
+       margin-top: -11px;
     } 
 
 .iconButVideo { display: none;
