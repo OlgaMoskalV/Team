@@ -321,11 +321,3 @@ header {overflow: hidden;
                   align-items: center;
                   height: 1100px;
                   z-index: 1;}
-.Article1 {
-  font-size: 17px;
-  font-family: "Verlag A", "Verlag B";
-  padding: 120px 30px 90px;
-}
-.h2Article1 {
-  color: #e0c282;
-}
