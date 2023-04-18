@@ -36,3 +36,9 @@
 .pTextArticle2{font-weight: 500;
                font-size: 25px;
                padding: 0 13.5%;}
+.article{background-color: black;
+         padding: 0;}
+.TextArticle3{float: right;
+              padding-left:3%;}
+.divFoto{padding: 0 2.3% 0 0.8%;}
+.H3Article3{color: yellow;}
