@@ -1,3 +1,6 @@
+.textList {
+    font-family: "Verlag A", "Verlag B";
+  }
 .Article1 {font-size: 17px;
            font-family: "Verlag A", "Verlag B";
            padding: 120px 30px 90px;
