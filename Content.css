@@ -2,8 +2,6 @@
     font-family: "Verlag A", "Verlag B";
   }
 .Article1 {font-size: 17px;
-           font-family: "Verlag A", "Verlag B";
-           padding: 120px 30px 90px;
            margin-top: -2%;}
 .h2Article1 {color: #e0c282;}
 @media only screen and (max-width: 576px) {
