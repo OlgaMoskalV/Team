@@ -4,17 +4,17 @@
            margin-top: -2%;}
 .h2Article1 {color: #e0c282;}
 @media only screen and (max-width: 576px) {
-.article2{ height: 65vh; }}
+.article2{ height: 85vh; }}
 @media only screen and (min-width: 576px) {
-.article2{ height: 56vh; }}
+.article2{ height: 79vh; }}
 @media only screen and (min-width: 768px){
-.article2{ height: 52vh; }}
+.article2{ height: 70vh; }}
 @media only screen and (min-width: 992px) {
-.article2{ height: 50vh; }}
+.article2{ height: 65vh; }}
 @media only screen and (min-width: 1200px) {
-.article2{ height: 50vh; }}
+.article2{ height: 63vh; }}
 @media only screen and (min-width: 1400px){
- .article2{ height: 45vh; }}
+ .article2{ height: 50vh; }}
 .article2{background-image: url(Images/backgroundArt.jpg) ;
           text-align: center;
           width: 100%;
@@ -36,8 +36,9 @@
 .pTextArticle2{font-weight: 500;
                font-size: 25px;
                padding: 0 13.5%;}
-.article{background-color: black;
-         padding: 0;}
+.Article3{background-color: black;
+         padding: 0;
+         margin-top: 8%;}
 .TextArticle3{float: right;
               padding-left:3%;}
 .divFoto{padding: 0 2.3% 0 0.8%;}
