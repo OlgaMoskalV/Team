@@ -41,4 +41,5 @@
 .TextArticle3{float: right;
               padding-left:3%;}
 .divFoto{padding: 0 2.3% 0 0.8%;}
-.H3Article3{color: yellow;}
+.H3Article3{color: #e0c282;
+            font-family:"Verlag A", "Verlag B";}

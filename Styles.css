@@ -67,11 +67,11 @@
         font-family:Verdana, Geneva, Tahoma, sans-serif;
         padding: 3% 0% 2%;}
 .amenu2 {text-decoration: none;
-         color: rgb(185, 175, 26);} 
+         color: #e0c282;} 
 .amenu2:hover {text-decoration: none;
                color: rgb(187, 186, 179);}
 .amenu2 {text-decoration: none;
-         color: rgb(185, 175, 26);}         
+         color: #e0c282;}         
 .Lang{font-size: 10px;
       left: 0.1%;
       top: -17%;
@@ -114,7 +114,7 @@
                      font-weight: bold;
                      cursor: pointer;
                      text-decoration: none;}
-.kingisakeading li a:hover{color: rgb(145, 145, 48);}
+.kingisakeading li a:hover{color: #e0c282;}
 input[type="checkbox"]:checked ~ #nasugaculad {transform: translateX(0);}
 input[type=checkbox] {transition: all 0.3s;
                       box-sizing: border-box;
@@ -296,9 +296,9 @@ video{ display: block;}
 .textVideo{color:white;
            margin: 0px;
            font-size: 32px;}     
-.ButVideo{border: 2px solid #c89d73;
+.ButVideo{border: 2px solid #e0c282;
           border-radius: 4px;
-          color:#c89d73;
+          color:#e0c282;
           background-color: rgba(0, 0, 0, 0.466);
           font-size: 20px;
           padding:8px 23px;
