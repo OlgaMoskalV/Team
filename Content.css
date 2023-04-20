@@ -45,3 +45,31 @@
 .H3Article3{color: #e0c282;
                font-family:"Verlag A", "Verlag B";}
  @media only screen and (min-width: 992px){.Art3{display:flow-root;}}
+ .divFoto6{padding: 0 2.3% 0 0.8%;
+    order: 1; }
+ .TextArt6{float: right;
+    padding-left:0%;
+    order: 5; }
+ .btnArt6{border-radius: 5px;
+    border: 2px solid #e0c282;
+    color:#e0c282;
+    background-color:rgba(28, 28, 28, 0.568);
+    font-size: 22px;
+    padding:7px 23px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .btnArt6:hover > .bi-chevron-right  {display: block;
+        float: right;}
+.btnArt6:hover{transform: translate(-2%,0%) rotate(0deg);}
+.article7{ margin-top: 8%;}
+.emailArt7{ color: #e0c282;}
+.emailArt7:hover{ color: #e3bd69;}
+.Art6p1{
+    padding: 3%;
+    display: grid;
+    
+}
+@media only screen and (min-width: 992px){.Art6p1{display:flow-root;}
+
+}
+
