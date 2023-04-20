@@ -4,23 +4,31 @@
            margin-top: -2%;}
 .h2Article1 {color: #e0c282;}
 @media only screen and (max-width: 576px) {
-.article2{ height: 85vh; }}
+.article2{ height: 85vh; }
+.TextArticle2{padding-top: 25%;}}
 @media only screen and (min-width: 576px) {
-.article2{ height: 79vh; }}
+.article2{ height: 79vh; }
+.TextArticle2{padding-top: 25%;}}
 @media only screen and (min-width: 768px){
-.article2{ height: 70vh; }}
+.article2{ height: 70vh; }
+.TextArticle2{padding-top: 25%;}}
 @media only screen and (min-width: 992px) {
-.article2{ height: 65vh; }}
+.article2{ height: 65vh; }
+.TextArticle2{padding-top: 15%;}}
 @media only screen and (min-width: 1200px) {
-.article2{ height: 63vh; }}
+.article2{ height: 63vh; }
+.TextArticle2{padding-top: 15%;}}
 @media only screen and (min-width: 1400px){
- .article2{ height: 50vh; }}
-.article2{background-image: url(Images/backgroundArt.jpg) ;
-          text-align: center;
+ .article2{ height: 50vh; }
+ .TextArticle2{padding-top: 8%;}}
+.article2{text-align: center;
           width: 100%;
+          
+          margin: 0;}
+.fonArt2 {background-image: url(Images/backgroundArt.jpg) ;
           background-position: center center;
-          background-size: cover;}
-.TextArticle2{padding-top: 5%;
+          background-size: cover;}       
+.TextArticle2{
               color: #e0c282;}
 .btnArt2{border-radius: 6px;
          border: none;
@@ -35,7 +43,7 @@
 .btnArt2:hover{transform: translate(-2%,0%) rotate(0deg);}
 .pTextArticle2{font-weight: 500;
                font-size: 25px;
-               padding: 0 13.5%;}
+               padding: 0 4%;}
 .Art3{       padding: 0;
                 display: flex;
                 flex-direction: column;}
@@ -45,3 +53,29 @@
 .H3Article3{color: #e0c282;
                font-family:"Verlag A", "Verlag B";}
  @media only screen and (min-width: 992px){.Art3{display:flow-root;}}
+ .divFoto6{ order: 1; }
+ .TextArt6{float: right;
+    order: 2; }
+ .btnArt6{border-radius: 5px;
+    border: 2px solid #e0c282;
+    color:#e0c282;
+    background-color:rgba(28, 28, 28, 0.568);
+    font-size: 22px;
+    padding:7px 23px;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    .btnArt6:hover > .bi-chevron-right  {display: block;
+        float: right;}
+.btnArt6:hover{transform: translate(-2%,0%) rotate(0deg);}
+.emailArt7{ color: #e0c282;}
+.emailArt7:hover{ color: #e3bd69;}
+.Art6p1{
+    padding: 0%;
+    display: flex;
+    flex-direction: column;
+    
+}
+@media only screen and (min-width: 992px){.Art6p1{display:flow-root;}
+
+}
+
