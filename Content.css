@@ -90,13 +90,14 @@
 .TextArticle7{padding-top: 100px;}}
 @media only screen and (min-width: 1400px){
 .article7{ height: 65vh; }
-.TextArticle7{padding-top: 100px; }}
+.TextArticle7{padding-top: 190px; }}
     
 .article7{text-align: center;
-              width: 100%;
-              background-position: center center;
-              background-size: cover;}
+              width: 100%;}
 .bgFoto7{background-image: url(Images/Article7.jpg);
+         background-repeat: no-repeat;
+         background-position: center center;
+          background-size: cover;
          margin-top: 7%;}
 .TextArticle7{color: #e0c282;}
     
