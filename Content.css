@@ -6,16 +6,16 @@
 .article2{ height: 85vh; }
 .TextArticle2{padding-top: 85px;}}
 @media only screen and (min-width: 576px) {
-.article2{ height: 79vh; }
+.article2{ height: 82vh; }
 .TextArticle2{padding-top: 105px;}}
 @media only screen and (min-width: 768px){
 .article2{ height: 70vh; }
 .TextArticle2{padding-top: 105px;}}
 @media only screen and (min-width: 992px) {
-.article2{ height: 65vh; }
+.article2{ height: 68vh; }
 .TextArticle2{padding-top: 125px;}}
 @media only screen and (min-width: 1200px) {
-.article2{ height: 63vh; }
+.article2{ height: 65vh; }
 .TextArticle2{padding-top: 140px;}}
 @media only screen and (min-width: 1400px){
  .article2{ height: 50vh; }
