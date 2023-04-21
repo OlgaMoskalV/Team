@@ -1,5 +1,4 @@
-.textList {
-    font-family: "Verlag A", "Verlag B";}
+.textList {font-family: "Verlag A", "Verlag B";}
 .Article1 {font-size: 17px;
            margin-top: -2%;}
 .h2Article1 {color: #e0c282;}
@@ -23,7 +22,6 @@
  .TextArticle2{padding-top: 100px;}}
 .article2{text-align: center;
           width: 100%;
-          
           margin: 0;}
 .fonArt2 {background-image: url(Images/backgroundArt.jpg) ;
           background-position: center center;
@@ -53,10 +51,10 @@
 .H3Article3{color: #e0c282;
                font-family:"Verlag A", "Verlag B";}
  @media only screen and (min-width: 992px){.Art3{display:flow-root;}}
- .divFoto6{ order: 1; }
- .TextArt6{float: right;
+.divFoto6{ order: 1; }
+.TextArt6{float: right;
     order: 2; }
- .btnArt6{border-radius: 5px;
+.btnArt6{border-radius: 5px;
     border: 2px solid #e0c282;
     color:#e0c282;
     background-color:rgba(28, 28, 28, 0.568);
@@ -64,18 +62,57 @@
     padding:7px 23px;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
-    .btnArt6:hover > .bi-chevron-right  {display: block;
+.btnArt6:hover > .bi-chevron-right  {display: block;
         float: right;}
 .btnArt6:hover{transform: translate(-2%,0%) rotate(0deg);}
 .emailArt7{ color: #e0c282;}
 .emailArt7:hover{ color: #e3bd69;}
-.Art6p1{
-    padding: 0%;
-    display: flex;
-    flex-direction: column;
-    
-}
-@media only screen and (min-width: 992px){.Art6p1{display:flow-root;}
+.Art6p1{padding: 0%;
+        display: flex;
+        flex-direction: column;}
+@media only screen and (min-width: 992px){
+.Art6p1{display:flow-root;}}
 
-}
+@media only screen and (max-width: 576px) {
+.article7{ height: 69vh; }
+.TextArticle7{padding-top: 130px;}}
+@media only screen and (min-width: 576px) {
+.article7{ height: 72vh; }
+.TextArticle7{padding-top: 130px;}}
+@media only screen and (min-width: 768px){
+.article7{ height: 71vh; }
+.TextArticle7{padding-top: 125px;}}
+@media only screen and (min-width: 992px) {
+.article7{ height: 70vh; }
+.TextArticle7{padding-top: 100px;}}
+@media only screen and (min-width: 1200px) {
+.article7{ height: 65vh; }
+.TextArticle7{padding-top: 100px;}}
+@media only screen and (min-width: 1400px){
+.article7{ height: 65vh; }
+.TextArticle7{padding-top: 100px; }}
+    
+.article7{text-align: center;
+              width: 100%;
+              background-position: center center;
+              background-size: cover;}
+.bgFoto7{background-image: url(Images/Article7.jpg);
+         margin-top: 7%;}
+.TextArticle7{color: #e0c282;}
+    
+.pTextArticle7{font-weight: 500;
+                   font-size: 15px;
+                   padding: 0 1%;}
+.btnArt7{border-radius: 5px;
+             border: 2px solid #e0c282;
+             color:#e0c282;
+             background-color:rgba(0, 0, 0, 0.568);
+             font-size: 22px;
+             padding:7px 23px;
+             text-align: center;
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.iconBtnArt7{display: none;}
+.btnArt7:hover > .bi-chevron-right  {display: block;
+                                     float: right;}
+.btnArt7:hover{transform: translate(-2%,0%) rotate(0deg);}
 
